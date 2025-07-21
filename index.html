@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Track Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="mainBody">
+    <div id="audioError" style="display:none;position:fixed;top:12px;left:50%;transform:translateX(-50%);background:#c00;color:#fff;padding:8px 24px;border-radius:8px;z-index:2000;font-size:18px;font-weight:bold;"></div>
+    <button id="soundBtn" style="position:fixed;top:24px;right:32px;z-index:1000;font-size:22px;padding:8px 18px;border-radius:8px;cursor:pointer;">🔊</button>
+    <div id="helpBox" style="position:fixed;bottom:24px;left:32px;z-index:1000;font-size:18px;padding:12px 20px;background:rgba(30,30,30,0.85);color:#fff;border-radius:10px;box-shadow:0 2px 8px #0006;max-width:340px;line-height:1.7;">
+        <b>Controls:</b><br>
+        <span style="color:#ffd700;">&#8594; (Right Arrow):</span> Accelerate<br>
+        <span style="color:#ffd700;">&#8592; (Left Arrow):</span> Brake<br>
+        <span style="color:#ffd700;">Click/Keydown:</span> Start sound<br>
+        <span style="color:#ffd700;">🔊 Button:</span> Mute/Unmute sound
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html> 
